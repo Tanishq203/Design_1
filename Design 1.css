@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#left{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1471895302488-5ce150f3a1ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80);
+    background-position: center;
+    background-size: cover;
+}
+#left #text{
+    font-size: 45px;
+    position: absolute;
+    color: white;
+    opacity: .69;
+    bottom: 0%;
+    right: 10%;
+}
+
+span{
+    color: black;
+}
+#right{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color:#0A1821;
+}
+#right #rightext{
+    position: absolute;
+    right: -15%;
+    top: 25%;
+    color:#E5E9F2;
+    font-size: 30px;
+    transform: rotate(-90deg)
+}
+
+#circle{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    border-radius: 100px;
+    border: 2px solid #E5E9F2;
+    color:#E5E9F2;
+    left: 50%;
+    top: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transform: translate(-30%,-50%)
+    
+}
+#circle h4{
+    font-weight: 5000;
+    font-family: "Gilroy";
+}
+#circle h4{
+    cursor: pointer;
+}
+
+.img{
+    position: absolute;
+    height: 300px;
+    width: 220px;
+    
+}
+
+#i1{
+    height: 200px;
+    width: 200px;
+    left: 20%;
+    background-image: url(https://images.unsplash.com/photo-1490059830487-2f86fddb2b4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80);
+    background-position: center;
+    background-size: cover;
+    top: 10px;
+    
+}
+#i2{
+    width: 250px;
+    left: 5%;
+    background-image: url(https://images.unsplash.com/photo-1499711860525-c485eb341d5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    background-position: center;
+    background-size: cover;
+    top: 33%;
+    opacity: .4;
+}
+#i3{
+    width: 200px;
+    height: 230px;
+    left: 30%;
+    background-image: url(https://images.unsplash.com/photo-1536924430914-91f9e2041b83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80);
+    background-position: center;
+    background-size: cover;
+    top: 75%;
+    
+}
